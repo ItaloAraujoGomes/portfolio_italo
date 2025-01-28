@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+}
+
+.grid-flow-col{
+    grid-auto-flow: column;
+}
+
+.flex{
+    display: flex;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.gap-32{
+    gap: 32px;
+}
