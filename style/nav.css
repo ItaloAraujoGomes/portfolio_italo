@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 60px;
+    padding-block: 24px;
+    align-items: center;
+
+    h3{
+        font: var(--h3);
+        color: var(--color-font-grey);
+    }
+
+
+    div{
+        display: flex;
+        gap: 32px;
+        
+
+        a{
+            color: var(--color-font-grey);
+            font: var(--body-4);
+        }
+    }
+}

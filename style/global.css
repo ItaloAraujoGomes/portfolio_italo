@@ -2,7 +2,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
+    font-family: var(--font-family);
+    background-color: var(--background-color);
 }
 
 :root{
@@ -29,4 +30,8 @@
     max-width: 1440px;
     padding-inline: 108px;
     margin-inline: auto;
+}
+
+a{
+    text-decoration: none;
 }
