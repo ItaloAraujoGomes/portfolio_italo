@@ -4,7 +4,8 @@ nav{
     padding-inline: 60px;
     padding-block: 24px;
     align-items: center;
-
+    max-width: 1440px;
+    margin-inline: auto;
     h3{
         font: var(--h3);
         color: var(--color-font-grey);
