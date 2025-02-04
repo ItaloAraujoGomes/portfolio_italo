@@ -1,0 +1,22 @@
+
+#initial{
+    display: flex;
+
+    a {
+
+
+        img{
+            height: 54px;
+            width: 54px;
+            object-fit: cover;
+        }
+    }
+}
+
+#initial img{
+    width: 600px;
+    height: 700px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border-radius: 20px;
+}
