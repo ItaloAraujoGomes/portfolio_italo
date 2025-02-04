@@ -2,6 +2,7 @@
 #initial{
     display: flex;
     justify-content: space-between;
+    
     div{
         padding-top: 190px;
         h1{
@@ -13,20 +14,25 @@
             font: var(--body-1);
             color: var(--color-font-grey);
             margin-bottom: 40px;
+
         }
-        div{
+        #initial-2{
             display: flex;
             padding-top: 0px;
             align-items: center;
             align-content: center;
+            vertical-align: middle;
             gap: 16px;
             a {
-                color: var(--);
-                
+                color: var(--font-white);
+                align-items: center;
+                align-content: center;
                 img{
                     height: 54px;
                     width: 54px;
                     object-fit: cover;
+                    margin-top: 0px;
+                    padding-top: 0px;
                 }
             }
         }
