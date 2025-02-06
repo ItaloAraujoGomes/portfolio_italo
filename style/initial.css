@@ -1,7 +1,3 @@
-#initial div a img{
-  
-}
-
 #initial{
   display: flex;
   justify-content: space-between;
@@ -53,3 +49,4 @@
   position: relative;
   top: 4px;
 }
+
