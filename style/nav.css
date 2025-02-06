@@ -21,5 +21,11 @@ nav{
             color: var(--color-font-grey);
             font: var(--body-4);
         }
+        a:hover{
+            color: white;
+            transition: 500ms;
+            text-shadow: 1px 1px 2px white;
+        }
     }
 }
+
