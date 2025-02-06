@@ -24,7 +24,7 @@
     --body-2: 700 16px/100% var(--font-family2);
     --body-3: 600 16px/150% var(--font-family2);
     --body-4: 500 16px/160% var(--font-family2);
-    --subtitle: 500 32px/140% var(var(--font-family2));
+    --subtitle: 500 32px/140% var(--font-family2);
 }
 
 .container{
