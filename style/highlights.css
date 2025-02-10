@@ -12,11 +12,14 @@
   align-items: center;
   justify-content: space-between;
   max-height: 600px;
+  gap: 48px;
+  margin-bottom: 120px;
 }
 
 
 #about-pj {
   max-width: 576px;
+  padding-top: 60px;
 }
 
 #highlights > p:nth-child(2) {
@@ -71,4 +74,25 @@
   }
 }
 
+#project-1 {
+  position: relative;
+   
+}
+#background::before{
+  content: "";
+  background-color: var(--background-color2);
+  position: absolute;
+  inset: 0;
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+
+#background img{
+   position: absolute;
+   top: 127px;
+   left: 56px;
+   border-radius: 12px;
+}
 
