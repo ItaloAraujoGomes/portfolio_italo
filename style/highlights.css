@@ -64,7 +64,11 @@
   align-items: center;
   a{
     text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
     color: var(--primary);
+    font: var(--body-3);
+    text-transform: uppercase;
     img{
       position: relative;
       top: 7px;

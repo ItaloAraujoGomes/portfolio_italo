@@ -1,0 +1,30 @@
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+    margin-top: 122px;
+    h2{
+        font: var(--h1);
+        color: var(--color-font-white);
+    }
+}
+
+#about > div{
+    width: 704px;
+    h4{
+        font: var(--subtitle);
+        color: var(--color-font-white);
+        margin-bottom: 16px;
+    }
+    p {
+        font: var(--body-1);
+        margin-bottom: 53px;
+    }
+    a{
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        text-decoration-thickness: 2px;
+        color: var(--primary);
+        font: var(--body-3);
+    }
+}
